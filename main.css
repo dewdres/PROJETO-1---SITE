@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section,
+footer {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #b9eaf9;
+    color: #000;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container img {
+    max-width: 800px;
+    margin-right: 12px;
+}
+
+
+#emilie img {
+    height: 500px;
+    margin-right: 12px;
+}
+
+
+section {
+    padding: 42px 0;
+}
+
+section h2 {
+    margin-bottom: 13px;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    text-decoration: underline;
+}
+
+#emilie img {
+    height: 500px;
+    margin-right: 16px;
+}
+
+#sigewinne .logo,
+#yae-miko .logo {
+    height: 500px;
+    width: 40%;
+}
+
+#emilie .artefact,
+#sigewinne .artefact {
+    height: 100px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+section p,
+section h2 {
+    position: relative;
+    top: -90px;
+}
+
+#emilie .artefact,
+#sigewinne .artefact,
+#yae-miko .artefact {
+    position: relative;
+    top: +150px;
+    left: +110px;
+}
+
+.contact-methods {
+    display: inline-block;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 120px;
+}
+
+h3{
+    margin-bottom: 20px;
+}
+
+form button {
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #b9eaf9;
+}
+
+input:focus, textarea:focus {
+    outline-color: #b9eaf9;
+}
+
+footer {
+    background-color: #b9eaf9;
+    padding: 18px 0;
+}
